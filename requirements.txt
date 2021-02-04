@@ -1,0 +1,4 @@
+numpy==1.20.0
+pandas==1.2.1
+PyAutoGUI==0.9.52
+opencv-python>=4.5.1.48
