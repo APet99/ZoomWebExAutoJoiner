@@ -22,7 +22,7 @@ if __name__ == '__main__':
     while True:
         # Each iteration is a new day
         print_daily_message()
-        meetings_today = get_meetings_day(appointments, 4)
+        meetings_today = get_meetings_day(appointments)
         if not meetings_today:
             print("There are no meetings scheduled today. I am sleeping for the rest of the day. See you tomorrow! :)")
             t.sleep(time_until_end_of_day() + 1)
