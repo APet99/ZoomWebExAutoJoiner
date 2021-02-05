@@ -211,7 +211,7 @@ Project Link: [https://github.com/APet99/ZoomWebExAutoJoiner](https://github.com
 [issues-url]: https://github.com/APet99/ZoomWebExAutoJoiner/issues
 
 [size-shield]: https://img.shields.io/github/repo-size/APet99/ZoomWebExAutoJoiner?style=plastic&logo=appveyor
-[size-url]: https://github.com/APet99/ZoomWebExAutoJoiner/archive/master.zip
+[size-url]: https://github.com/APet99/ZoomWebExAutoJoiner/releases/tag/1.0.0
 
 [issues-url]: https://github.com/APet99/ZoomWebExAutoJoiner/archive/master.zip
 
@@ -221,8 +221,7 @@ Project Link: [https://github.com/APet99/ZoomWebExAutoJoiner](https://github.com
 
 
 [download-shield]: https://img.shields.io/github/downloads/APet99/ZoomWebExAutoJoiner/total?style=plastic&logo=appveyor
-[download-url]: https://github.com/APet99/ZoomWebExAutoJoiner/archive/master.zip
-
+[download-url]: https://github.com/APet99/ZoomWebExAutoJoiner/releases/tag/1.0.0
 [product-screenshot]: images/misc/app_proof.png
 [proof2_img]: images/misc/proof2.png
 [log_img]: images/misc/log.png
