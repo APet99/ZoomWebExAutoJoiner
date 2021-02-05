@@ -62,7 +62,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]
+[![Product Name Screen Shot][product-screenshot]
 
 There are many automatic zoom joiners available on GitHub, however, I didn't find one that dynamically worked (or worked well). They all required prior knowledge of programming (which some people don't have).
 
