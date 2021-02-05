@@ -159,7 +159,7 @@ Running the script
    python main.py
    ```
 
-###Note: If you want the script to run in the background
+**Note: If you want the script to run in the background**
    ```sh
    python main.py &
    ```
