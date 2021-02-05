@@ -63,8 +63,8 @@
 ## About The Project
 
 ![Product Name Screen Shot][product-screenshot]
-![proof2_img][product-screenshot2]
-![log_img][product-screenshot2]
+![proof2_img][proof2_img]
+![log_img][log_img]
 
 There are many automatic zoom joiners available on GitHub, however, I didn't find one that dynamically worked (or worked well). They all required prior knowledge of programming (which some people don't have).
 
