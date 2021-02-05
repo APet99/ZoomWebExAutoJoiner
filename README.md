@@ -2,6 +2,8 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+[![Size][size-shield]][size-url]
+[![Download][download-shield]][download-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <a href="https://www.paypal.com/donate?business=42UDCSWF2PHZE&currency_code=USD" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
@@ -196,20 +198,30 @@ Alex Peterson - Discord: You12boo_#6682
 Project Link: [https://github.com/APet99/ZoomWebExAutoJoiner](https://github.com/APet99/ZoomWebExAutoJoiner)
 
 
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/APet99/ZoomWebExAutoJoiner?style=plastic&logo=appveyor
 [contributors-url]: https://github.com/APet99/ZoomWebExAutoJoiner/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/APet99/ZoomWebExAutoJoiner?style=plastic&logo=appveyor
 [forks-url]: https://github.com/APet99/ZoomWebExAutoJoiner/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/APet99/ZoomWebExAutoJoiner?style=plastic&logo=appveyor
 [stars-url]: https://github.com/APet99/ZoomWebExAutoJoiner/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/APet99/ZoomWebExAutoJoiner?style=plastic&logo=appveyor
 [issues-url]: https://github.com/APet99/ZoomWebExAutoJoiner/issues
 
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[size-shield]: https://img.shields.io/github/repo-size/APet99/ZoomWebExAutoJoiner?style=plastic&logo=appveyor
+[size-url]: https://github.com/APet99/ZoomWebExAutoJoiner/archive/master.zip
+
+[issues-url]: https://github.com/APet99/ZoomWebExAutoJoiner/archive/master.zip
+
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black?style=plastic&logo=appveyor
 [linkedin-url]: https://www.linkedin.com/in/alexpeterson99/
+
+
+[download-shield]: https://img.shields.io/github/downloads/APet99/ZoomWebExAutoJoiner/total?style=plastic&logo=appveyor
+[download-url]: https://github.com/APet99/ZoomWebExAutoJoiner/archive/master.zip
 
 [product-screenshot]: images/misc/app_proof.png
 [proof2_img]: images/misc/proof2.png
