@@ -11,7 +11,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/APet99/ZoomWebExAutoJoiner">
-    <img src="/images/misc/ZoomAutoJoiner.png" alt="Logo" width="80" height="80">
+    <img src="/images/misc/ZoomAutoJoiner.png" alt="Logo" width="256" height="256">
   </a>
 
   <h3 align="center">Automate The Redundancy In Your Life</h3>
