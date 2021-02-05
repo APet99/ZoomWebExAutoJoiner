@@ -102,9 +102,11 @@ To get the Zoom/WebEx Automatic Joiner working; follow the steps below.
    git clone https://github.com/APet99/ZoomWebExAutoJoiner
    ```
 3. Install pip packages
+
    ```sh
    pip install -r requirements.txt
    ```
+   
   or
   
    ```sh
