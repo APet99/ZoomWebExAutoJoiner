@@ -103,6 +103,11 @@ To get the Zoom/WebEx Automatic Joiner working; follow the steps below.
    ```
 3. Install pip packages
    ```sh
+   pip install -r requirements.txt
+   ```
+  or
+  
+   ```sh
    pip install numpy
    
    pip install pandas
