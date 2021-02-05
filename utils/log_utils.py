@@ -29,7 +29,6 @@ def initialize_logs():
         os.mkdir(screenshot_dir)
 
 
-
 def print_daily_message():
     print("Today is " + get_day(datetime.today().weekday() + 1) + ". Have a great day!")
 

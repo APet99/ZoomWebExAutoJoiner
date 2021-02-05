@@ -1,2 +1,4 @@
 # Project exclude paths
 /tst/
+/venv/
+/logs/

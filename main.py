@@ -1,6 +1,5 @@
 """'
 Zoom/WebEx Auto joiner
-explain here. . .
 
 """
 
@@ -8,6 +7,7 @@ from utils.csv_utils import build_appointments_from_csv
 from utils.log_utils import print_daily_message
 from utils.session_utils import *
 from utils.utils import get_meetings_day, time_until_end_of_day, prepare_appointments, get_time_to_next_meeting
+from datetime import time as dt_time
 
 __author__ = "Alex Peterson"
 __copyright__ = "Copyright 2021"
@@ -22,7 +22,7 @@ if __name__ == '__main__':
     while True:
         # Each iteration is a new day
         print_daily_message()
-        meetings_today = get_meetings_day(appointments)
+        meetings_today = get_meetings_day(appointments, 4)
         if not meetings_today:
             print("There are no meetings scheduled today. I am sleeping for the rest of the day. See you tomorrow! :)")
             t.sleep(time_until_end_of_day() + 1)
@@ -40,7 +40,17 @@ if __name__ == '__main__':
             act_in_meeting(app)
 
             # leave when necessary
-            leave_meeting(app)
-
+            msg= ""
+            if app.meeting_end_time != dt_time(0, 0, 0):
+                # t.sleep(get_time_to_next_meeting(app.meeting_end_time).seconds)
+                # leave_meeting(app)
+                msg = "You currently must leave sessions manually. This feature will be supported in the future."
+                print(msg)
+                log_event(msg)
+                pass
+            else:
+                msg = "No End Time Specified. Must Exit the meeting manually."
+                log_event(msg)
+                print(msg)
         print("All meetings for the day were completed. Check Back tomorrow.")
         t.sleep(time_until_end_of_day() + 1)
