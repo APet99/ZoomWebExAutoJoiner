@@ -63,6 +63,8 @@
 ## About The Project
 
 ![Product Name Screen Shot][product-screenshot]
+![proof2_img][product-screenshot2]
+![log_img][product-screenshot2]
 
 There are many automatic zoom joiners available on GitHub, however, I didn't find one that dynamically worked (or worked well). They all required prior knowledge of programming (which some people don't have).
 
@@ -210,3 +212,5 @@ Project Link: [https://github.com/APet99/ZoomWebExAutoJoiner](https://github.com
 [linkedin-url]: https://www.linkedin.com/in/alexpeterson99/
 
 [product-screenshot]: images/misc/app_proof.png
+[proof2_img]: images/misc/proof2.png
+[log_img]: images/misc/log.png
