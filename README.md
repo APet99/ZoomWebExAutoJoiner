@@ -221,7 +221,7 @@ Project Link: [https://github.com/APet99/ZoomWebExAutoJoiner](https://github.com
 
 
 [download-shield]: https://img.shields.io/github/downloads/APet99/ZoomWebExAutoJoiner/total?style=plastic&logo=appveyor
-[download-url]: https://github.com/APet99/ZoomWebExAutoJoiner/releases/tag/1.0.0
+[download-url]: https://github.com/APet99/ZoomWebExAutoJoiner/releases/tag/v1.1.0
 [product-screenshot]: images/misc/app_proof.png
 [proof2_img]: images/misc/proof2.png
 [log_img]: images/misc/log.png
