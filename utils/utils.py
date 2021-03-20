@@ -1,7 +1,9 @@
+import os
 from datetime import datetime, time
 from operator import attrgetter
 # from sys import platform
 import platform
+from pathlib import Path
 from appointment import Appointment, map_days
 
 
@@ -71,13 +73,4 @@ def given_datetime(date, t):
 
 
 def get_image_dir():
-    os = platform.system()
-    dir_path = "images\\"
-
-    if os == "Darwin":
-        dir_path += "mac\\"
-    elif os == "Windows":
-        dir_path += "windows\\"
-    else:
-        raise Exception("Unsupported Operating System")
-    return dir_path
+    return Path(f'images')

@@ -47,20 +47,23 @@ class Appointment:
             return None
 
     def to_string(self):
-        return 'Meeting Name: {}\n' \
-               'Link:{}\n' \
-               'Days: {}\n' \
-               'Start Time: {}\n' \
-               'End Time: {}\n' \
-               'ID: {}\n' \
-               'Password: {}\n' \
-               'Message {}\n'.format(self.meeting_name, self.meeting_link, self.meeting_days,
-                                     self.meeting_start_time, self.meeting_end_time, self.meeting_id,
-                                     self.meeting_password, str(self.custom_message))
+        return f'Meeting Name: {self.meeting_name}\n' \
+               f'Link:{self.meeting_link}\n' \
+               f'Days: {self.meeting_days}\n' \
+               f'Start Time: {self.meeting_start_time}\n' \
+               f'End Time: {self.meeting_end_time}\n' \
+               f'ID: {self.meeting_id}\n' \
+               f'Password: {self.meeting_password}\n' \
+               f'Message {self.custom_message}\n '
 
 
-map_days = {'M': (1, 'Monday'), 'T': (2, 'Tuesday'), 'W': (3, 'Wednesday'), 'R': (4, 'Thursday'), 'F': (5, 'Friday'),
-            'S': (6, 'Saturday'), 'U': (7, 'Sunday')}
+map_days = {'M': (1, 'Monday'),
+            'T': (2, 'Tuesday'),
+            'W': (3, 'Wednesday'),
+            'R': (4, 'Thursday'),
+            'F': (5, 'Friday'),
+            'S': (6, 'Saturday'),
+            'U': (7, 'Sunday')}
 
 
 def convert_days_to_int(days):

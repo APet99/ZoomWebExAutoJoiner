@@ -3,8 +3,8 @@ from datetime import datetime
 
 from utils.utils import get_day
 
-log_dir = ".\\logs\\"
-screenshot_dir = log_dir + "screenshot proof\\"
+log_dir = "logs"
+screenshot_dir = os.path.join(log_dir, "screenshot proof")
 log_file = "task.log"
 
 

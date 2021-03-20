@@ -4,8 +4,8 @@ import pandas as pd
 from appointment import Appointment
 
 
-def build_appointments_from_csv():
-    data = load_csv('./schedule.csv')
+def build_appointments_from_csv(csv_path: str = 'schedule.csv'):
+    data = load_csv(csv_path)
     data = remove_null_rows(data)
     data = data.replace(np.nan, '', regex=True)
     data_list = data.values.tolist()

@@ -42,14 +42,14 @@ if __name__ == '__main__':
             # leave when necessary
             msg= ""
             if app.meeting_end_time != dt_time(0, 0, 0):
-                # t.sleep(get_time_to_next_meeting(app.meeting_end_time).seconds)
+                # t.sleep(get_time_to_next_meeting(app.meeting_end_time).seconds - 1)
                 # leave_meeting(app)
                 msg = "You currently must leave sessions manually. This feature will be supported in the future."
                 print(msg)
                 log_event(msg)
                 pass
             else:
-                msg = "No End Time Specified. Must Exit the meeting manually."
+                msg = "No End Time Specified. You must exit the meeting manually."
                 log_event(msg)
                 print(msg)
         print("All meetings for the day were completed. Check Back tomorrow.")
