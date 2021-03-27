@@ -77,11 +77,12 @@ So Why Build it?
 While this solution met my needs, you may find that features are missing or bugs hinder use of the script. If that is the case, reach out and let's see what we can do :)
 ## Current Features
 * Schedule is easily editable, and can be changed at any time. (Dynamic)
-* Automatically join all of your zoom sessions in your schedule.
+* Automatically join all of your zoom or Webex sessions in your schedule.
 * Automatically mute mic and disable web-cam upon joining.
 * Automatically log the time you joined your session as proof of attendance.
 * Automatically take a screenshot upon joining as proof of attendance.
 * When left running in the background, you schedule is updated daily, and will automatically join meetings set for a given day.
+* Send a message when joining a session.
 
 ### Built With
 
@@ -169,10 +170,9 @@ Running the script
 
 ## Roadmap
 Features currently being developed includes:
-* Ability to leave meetings at a selected time.
-* Compatibility with WebEx sessions.
 * Streamlined in-meeting actions
 * Support for ID/Password sessions
+* Add WebEx join-message functionality 
 
 Recommended future features and known bugs can be found [here](https://github.com/APet99/ZoomWebExAutoJoiner/issues).
 
