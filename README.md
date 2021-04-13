@@ -193,7 +193,7 @@ Want to help? Contributions foster an amazing place to be learn, inspire, and cr
 <!-- CONTACT -->
 ## Contact
 
-Alex Peterson - Discord: You12boo_#6682 
+Alex Peterson - Discord: ..#6682 
 Project Link: [https://github.com/APet99/ZoomWebExAutoJoiner](https://github.com/APet99/ZoomWebExAutoJoiner)
 
 
