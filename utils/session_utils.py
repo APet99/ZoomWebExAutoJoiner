@@ -11,10 +11,11 @@ from appointment import Appointment
 from utils.log_utils import log_event, screenshot_dir, initialize_logs
 from utils.utils import get_image_dir
 
+os = platform.system()
+
 def join_meeting(appointment: Appointment):
     print('Your meeting is being launched.')
 
-    os = platform.system()
     p = subprocess
     if os == 'Windows':
         p.Popen(f'start {appointment.meeting_link}', shell=True)
@@ -44,14 +45,25 @@ def act_in_meeting(appointment: Appointment):
             click_mouse()
             t.sleep(1.5)
 
+        # Fullscreen to ensure all menu options are visible:
+        if os == 'Windows' and (move_cursor(folder="windows", image='maximize_light', confidence_measure= 0.70) or move_cursor(folder="windows", image='maximize_dark', confidence_measure= 0.70)):
+            click_mouse()
+
+        elif os == 'Darwin' and move_cursor(folder="mac", image='green'):
+            press_key("option")
+            click_mouse()
+            release_key("option")
+
+        t.sleep(0.25)
+
         if appointment.meeting_type == 'WEBEX':
             if move_cursor(folder=appointment.meeting_type, image='join_meeting', theme='light') or \
                     move_cursor(folder=appointment.meeting_type, image='join_meeting', theme='dark'):
                 click_mouse()
                 t.sleep(1.5)
         # message in chat
-        if appointment.custom_message and (move_cursor(folder=appointment.meeting_type, image='chat', theme='light') or
-                                           move_cursor(folder=appointment.meeting_type, image='chat', theme='dark')):
+        if appointment.custom_message and (move_cursor(folder=appointment.meeting_type, image='chat', theme='light', confidence_measure=.80) or
+                                           move_cursor(folder=appointment.meeting_type, image='chat', theme='dark', confidence_measure=.80)):
             click_mouse()
             t.sleep(0.25)
 
@@ -109,6 +121,11 @@ def send_message(message):
     pyg.typewrite(message)
     pyg.press("enter")
 
+def press_key(key):
+    pyg.keyDown(key)
+
+def release_key(key):
+    pyg.keyUp(key)
 
 def leave_meeting(appointment: Appointment):
     if appointment.meeting_type == 'ZOOM':
