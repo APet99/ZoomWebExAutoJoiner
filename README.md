@@ -97,7 +97,7 @@ This section should list any major frameworks that you built your project using.
 To get the Zoom/WebEx Automatic Joiner working; follow the steps below.
 
 ### Prerequisites
-* Download and install **Python Version 3.8.X** or newer (Download [here]((https://www.python.org/downloads/)))
+* Download and install **Python Version 3.8.X** or newer (Download [here](https://www.python.org/downloads/))
 
 
 ### Installation
